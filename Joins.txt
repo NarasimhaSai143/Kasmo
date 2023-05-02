@@ -1,8 +1,0 @@
-
-SELECT * FROM Customers
-JOIN
-CustomerCustomerDemo
-ON CustomerCustomerDemo.CustomerID = Customers.CustomerID
-JOIN
-CustomerDemographics
-ON CustomerCustomerDemo.CustomerTypeID = CustomerDemographics.CustomerTypeID
